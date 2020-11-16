@@ -1,0 +1,39 @@
+:root {
+--font-sans-serif: Open Sans, sans-serif;
+--font-serif: Playfair, sans-serif;
+--floral-white: #FFF8F1;
+--antique-white: #FAE8D9;
+--parchment: #F2E5D4;
+--tumbleweed: #DCA78D;
+--feldspar: #D28F6D;
+--wax-flower: #F7C2AA;
+--vivid-tangerine: #FFA686;
+--deep-carrot-orange:#FFA686;
+--gray: #988D84;
+--white: #ffffff;
+--black:#000000;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: var(--font-sans-serif);
+    line-height: 1.667;
+  }
+
+  a {
+      color: var(--black);
+  }
+
+  a :hover {
+    color: var(--gray);
+  }
+
+  a :active {
+      color: var(--black);
+  }
