@@ -1,6 +1,6 @@
 :root {
 --font-sans-serif: Open Sans, sans-serif;
---font-serif: Playfair, sans-serif;
+--font-serif: Playfair Display, serif;
 --floral-white: #FFF8F1;
 --antique-white: #FAE8D9;
 --parchment: #F2E5D4;
@@ -21,19 +21,52 @@ html {
     box-sizing: inherit;
   }
   
-  body {
+  .body__code {
     font-family: var(--font-sans-serif);
-    line-height: 1.667;
+    line-height: 1.9;
+    font-size: 1.2rem;
+    letter-spacing: .09em;
+    border: 2px solid gray;
+    padding: 0 1rem 0 1rem;
   }
 
   a {
       color: var(--black);
   }
 
-  a :hover {
+  a:hover {
     color: var(--gray);
   }
 
   a :active {
       color: var(--black);
   }
+
+  img {
+    display: block;
+  }
+
+  .h2__code {
+    font-size: 1.15em;
+    letter-spacing: .09em;
+    font-family: var(--font-serif);
+  }
+  .h3__code {
+    font-family: var(--font-serif);
+    letter-spacing: .02em;
+    font-weight: 400;
+    font-size: 1.4em;
+  }
+
+  .h4__code {
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .15em;
+    font-size: 1.5em;
+  }
+
+  .headings__code {
+    border: 2px solid gray;
+  }
+
