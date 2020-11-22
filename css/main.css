@@ -10,6 +10,7 @@
 --vivid-tangerine: #FFA686;
 --deep-carrot-orange:#FFA686;
 --bright-orange: #f65e39; 
+--light-pink: #f7e8db;
 --gray: #988D84;
 --white: #ffffff;
 --black:#000000;
@@ -81,9 +82,21 @@ html {
     ;
   }
 
- 
-
   a:hover {
     color: var(--bright-orange);
+  }
+
+  .component__sticky-menu {
+    display: inline-block;
+  }
+
+  .sticky-menu__code {
+    border: 1px solid black;
+    transform: rotate(-90deg);
+    background: var(--light-pink);
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    
+    
   }
 
