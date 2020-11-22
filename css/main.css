@@ -1,5 +1,5 @@
 :root {
---font-sans-serif: Open Sans, sans-serif;
+--font-sans-serif: OpenSans, sans-serif;
 --font-serif: Playfair Display, serif;
 --floral-white: #FFF8F1;
 --antique-white: #FAE8D9;
@@ -9,6 +9,7 @@
 --wax-flower: #F7C2AA;
 --vivid-tangerine: #FFA686;
 --deep-carrot-orange:#FFA686;
+--bright-orange: #f65e39; 
 --gray: #988D84;
 --white: #ffffff;
 --black:#000000;
@@ -68,5 +69,21 @@ html {
 
   .headings__code {
     border: 2px solid gray;
+  }
+
+  a {
+    font-family: var(--font-sans-serif);
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    text-decoration-thickness: 3px;
+    text-decoration-color: var(--bright-orange);
+    text-underline-position: under
+    ;
+  }
+
+ 
+
+  a:hover {
+    color: var(--bright-orange);
   }
 
