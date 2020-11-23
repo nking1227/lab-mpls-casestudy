@@ -92,11 +92,25 @@ html {
 
   .sticky-menu__code {
     border: 1px solid black;
-    transform: rotate(-90deg);
     background: var(--light-pink);
     font-family: var(--font-sans-serif);
     text-transform: uppercase;
-    
-    
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 5em;
+  }
+
+  .sticky_menu__text {
+    transform: rotate(-90deg);
+    letter-spacing: .15em;
+    font-size: 1.2em;
+  }
+
+  .fa-bars {
+    pointer-events: var(--bright-orange);
+    font-size: 2em;
+    padding-right: 0.5em;
+
   }
 
