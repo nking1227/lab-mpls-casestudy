@@ -108,10 +108,13 @@ html {
   }
 
   .fa-bars {
-    pointer-events: var(--bright-orange);
+    color: #df7145;
     font-size: 2em;
     padding-right: 0.5em;
+  }
 
+  .fa-bars:hover {
+    color: #d4a991;
   }
 
 .fa-long-arrow-alt-right {
@@ -123,22 +126,31 @@ html {
 }
 
 .fa-long-arrow-alt-right:hover {
-  background-color: #f2e1d0;
+  background-color:#d4a991;
 }
 .button-submit__code {
-  border: 1px solid green;
   font-family: var(--font-serif);
-  font-weight: 700;
+  font-weight: 600;
   color: #929292;
   background:#ffffff ;
   letter-spacing: 0.25em;
   border-radius: 4px;
   text-decoration: none;
   text-transform: none ;
-
+  box-shadow: 1px 1px 2px #e8dace;
+  padding: 0.8em 0.8em 0.8em 0.8em;
 }
 
 .button-submit__code:hover {
   color: #929292;
+}
+
+.main-nav__list {
+  list-style: none;
+}
+
+.main-nav__code {
+  background:#f7e8db;
+  max-width: 25%;
 }
 
