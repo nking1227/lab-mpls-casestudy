@@ -125,4 +125,20 @@ html {
 .fa-long-arrow-alt-right:hover {
   background-color: #f2e1d0;
 }
+.button-submit__code {
+  border: 1px solid green;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: #929292;
+  background:#ffffff ;
+  letter-spacing: 0.25em;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: none ;
+
+}
+
+.button-submit__code:hover {
+  color: #929292;
+}
 
