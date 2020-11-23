@@ -72,7 +72,7 @@ html {
     border: 2px solid gray;
   }
 
-  a {
+.links__code a {
     font-family: var(--font-sans-serif);
     text-transform: uppercase;
     letter-spacing: 0.25em;
@@ -147,10 +147,49 @@ html {
 
 .main-nav__list {
   list-style: none;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.6667;
+  padding-top: 1em;
+  padding-left: 3em;
+  font-family: var(--font-serif);
+  text-decoration: none;
 }
+
 
 .main-nav__code {
   background:#f7e8db;
   max-width: 25%;
 }
 
+.back-home__menu {
+  list-style: none;
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.25em;
+}
+.back-home__menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 4em;
+  padding-bottom: 2em;
+  }
+
+.fa-caret-left{
+  padding-right: 1em;
+}
+.main-nav__social-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: #df7145;
+  padding: 2.5em;
+  font-size: 1.5em;
+}
+
+.fab {
+  padding: .5em;
+}
