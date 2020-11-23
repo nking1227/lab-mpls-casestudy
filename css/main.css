@@ -91,7 +91,6 @@ html {
   }
 
   .sticky-menu__code {
-    border: 1px solid black;
     background: var(--light-pink);
     font-family: var(--font-sans-serif);
     text-transform: uppercase;
@@ -99,6 +98,7 @@ html {
     padding-top: 5em;
     padding-bottom: 5em;
     padding-left: 5em;
+    margin-top: 1em;
   }
 
   .sticky_menu__text {
@@ -113,4 +113,16 @@ html {
     padding-right: 0.5em;
 
   }
+
+.fa-long-arrow-alt-right {
+  background-color: #df7145;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 3em;
+  padding: 0.30em 0.30em 0.30em 0.30em;
+}
+
+.fa-long-arrow-alt-right:hover {
+  background-color: #f2e1d0;
+}
 
