@@ -221,7 +221,6 @@ html {
 }
 
 .about-card__code h3 {
-  border: 2px solid red;
   margin: 1rem 12rem 1rem 12rem;
   font-weight: 500;
   font-size: 30px;
@@ -229,8 +228,23 @@ html {
 
 .about-card__code p {
   font-size: 15px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .about-card__code a {
   font-size: 13px;
+}
+
+.feature__links {
+  list-style: none;
+}
+
+.feature__list {
+  list-style: none;
+}
+
+
+.feature_card__code a {
+  position: ;
 }
