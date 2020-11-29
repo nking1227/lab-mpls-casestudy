@@ -288,4 +288,14 @@ html {
   
 }
 
+.services-card {
+  display: flex;
+  flex: 1200px auto;
+  align-items: center;
+}
 
+.services-card__text {
+  border: 1px red solid;
+  transform: translate(-120px);
+  background-color: white;
+}
