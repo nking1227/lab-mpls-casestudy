@@ -234,6 +234,7 @@ html {
 
 .about-card__code a {
   font-size: 13px;
+  padding-left: 3rem;
 }
 
 .feature__links {
@@ -245,6 +246,21 @@ html {
 }
 
 
-.feature_card__code a {
-  position: ;
+.feature_card__code {
+  display: flex;
+  background-color: #f7e8db;
+  position: relative;
+}
+
+.feature_card__block {
+  background-color: #fff8f2;
+  display: block;
+  margin-right: 26rem;
+  margin-left: 26rem;
+  margin-bottom: 10rem;
+  padding: 2rem;
+}
+
+.feature_card__block a {
+  padding-left: 1rem;
 }
