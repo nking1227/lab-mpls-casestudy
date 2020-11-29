@@ -1,6 +1,7 @@
 :root {
 --font-sans-serif: OpenSans, sans-serif;
 --font-serif: Playfair Display, serif;
+--font-sans-serif-2: NunitoSans, sans-serif;
 --floral-white: #FFF8F1;
 --antique-white: #FAE8D9;
 --parchment: #F2E5D4;
@@ -16,6 +17,7 @@
 --black:#000000;
 }
 
+
 html {
     box-sizing: border-box;
   }
@@ -28,12 +30,12 @@ html {
     line-height: 1.9;
     font-size: 1.2rem;
     letter-spacing: .09em;
-    border: 2px solid gray;
     padding: 0 1rem 0 1rem;
   }
 
   a {
       color: var(--black);
+      font-family: var(--font-sans-serif);
   }
 
   a:hover {
@@ -72,7 +74,7 @@ html {
     border: 2px solid gray;
   }
 
-.links__code a {
+  .links__code a {
     font-family: var(--font-sans-serif);
     text-transform: uppercase;
     letter-spacing: 0.25em;
@@ -160,7 +162,17 @@ html {
 
 .main-nav__code {
   background:#f7e8db;
-  max-width: 25%;
+  width: 510px;
+  min-width: 500px;
+  height: 800px;
+  min-height: 800px;
+}
+
+
+.main-nav__list .back-home__menu .main-nav__social-list {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .back-home__menu {
@@ -192,4 +204,33 @@ html {
 
 .fab {
   padding: .5em;
+}
+
+.about-card__code {
+  text-align: center;
+  display: block;
+  width: 800px;
+}
+
+.about-card__code h2 {
+  font-family: var(--font-sans-serif-2);
+  font-weight: 400;
+  font-size: 12.5px;
+  letter-spacing: 2px;
+  padding-top: 3rem;
+}
+
+.about-card__code h3 {
+  border: 2px solid red;
+  margin: 1rem 12rem 1rem 12rem;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.about-card__code p {
+  font-size: 15px;
+}
+
+.about-card__code a {
+  font-size: 13px;
 }
