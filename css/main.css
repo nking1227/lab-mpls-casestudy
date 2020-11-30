@@ -38,6 +38,10 @@ html {
     text-decoration: none;
   }
 
+  .links__pages a {
+    font-family: var(--font-serif);
+  }
+
   a {
       color: var(--black);
       font-family: var(--font-sans-serif);
@@ -280,7 +284,7 @@ html {
 }
 
 .feature__links {
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
   font-size: 35px;
@@ -290,12 +294,38 @@ html {
 
 .services-card {
   display: flex;
-  flex: 1200px auto;
   align-items: center;
+  max-width: 1200px;
 }
+
+.services-card__img {
+  border: 4px solid blue;
+  
+}
+
+/*
+.services-card__img img {
+  border: 3px solid red;
+  object-fit: cover;
+  object-position: 0 100%;
+  width: 350%;
+  height: 500px;
+}
+*/ left off here
 
 .services-card__text {
   border: 1px red solid;
-  transform: translate(-120px);
+  transform: translate(425px);
   background-color: white;
+  padding-left: 1rem;
+  height: 400px;
+}
+
+.services__pages {
+  font-family: var(--font-serif);
+  text-decoration: none;
+  font-size: 30px;
+  left: 120px;
+  text-align: right;
+  padding-right: 10rem;
 }
