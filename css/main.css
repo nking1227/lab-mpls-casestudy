@@ -299,13 +299,15 @@ html {
   
 }
 
+/* .component_card__services*/
+
 .services-card {
   /*
   display: flex;
   */
   display: grid;
   grid-template-columns: repeat(50, 1fr);
-  grid-template-rows: repeat(50, 50px);
+  grid-template-rows: repeat(8, 50px);
   grid-gap: 2rem;
   align-items: center;
   max-width: 1200px;
@@ -333,14 +335,15 @@ html {
 
 
 .services-card__text {
-  border: 1px red solid;
   /*
   transform: translate(625px);
   */
   grid-row-start: 5;
-  grid-column: 25 / 50;
+  grid-column: 26 / 50;
   background-color: white;
   padding-left: 1rem;
+  padding-bottom: 2rem;
+  margin-right: 5rem;
 }
 
 .services__pages {
@@ -354,14 +357,178 @@ html {
 
 .services-card__text h4 {
   font-size: 16px;
-  border: 1px solid red;
   font-weight: 900;
   margin-bottom: 0;
   padding-left: 1rem;
 }
 
-.services-card__text p {
-  border: 1px solid red;
-  margin-top: 0;
+.services-card__text h2 {
+  padding-bottom: 2rem;
+  font-size: 30px;
 }
+
+.services-card__text p {
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.services-card__text a {
+  font-size: 12px;
+  padding-left: 1rem;
+}
+
+/* .component_card__branding*/
+
+.branding-card {
+  /*
+  display: flex;
+  */
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(8, 50px);
+  grid-gap: 2rem;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.branding-card__img {
+  border: 4px solid blue;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 30;
+}
+
+
+.branding-card__img img {
+  border: 3px solid red;
+  object-fit: cover;
+  width: 100%;
+  /*
+  object-fit: cover;
+  
+  width: 350%; flex
+  */
+  height: 500px;
+}
+
+
+.branding-card__text {
+  /*
+  transform: translate(625px);
+  */
+  grid-row-start: 5;
+  grid-column: 26 / 50;
+  background-color: white;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  margin-right: 5rem;
+}
+
+.branding__pages {
+  font-family: var(--font-serif);
+  text-decoration: none;
+  font-size: 30px;
+  left: 120px;
+  text-align: right;
+  padding-right: 10rem;
+}
+
+.branding-card__text h4 {
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
+
+.branding-card__text h2 {
+  padding-bottom: 2rem;
+  font-size: 30px;
+}
+
+.branding-card__text p {
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.branding-card__text a {
+  font-size: 12px;
+  padding-left: 1rem;
+}
+
+/* .component_card__rental*/
+
+.rental-card {
+  /*
+  display: flex;
+  */
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(8, 50px);
+  grid-gap: 2rem;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.rental-card__img {
+  border: 4px solid blue;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 30;
+}
+
+
+.rental-card__img img {
+  border: 3px solid red;
+  object-fit: cover;
+  width: 100%;
+  /*
+  object-fit: cover;
+  
+  width: 350%; flex
+  */
+  height: 500px;
+}
+
+
+.rental-card__text {
+  /*
+  transform: translate(625px);
+  */
+  grid-row-start: 5;
+  grid-column: 26 / 50;
+  background-color: white;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  margin-right: 5rem;
+}
+
+.rental__pages {
+  font-family: var(--font-serif);
+  text-decoration: none;
+  font-size: 30px;
+  left: 120px;
+  text-align: right;
+  padding-right: 10rem;
+}
+
+.rental-card__text h4 {
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
+
+.rental-card__text h2 {
+  padding-bottom: 2rem;
+  font-size: 30px;
+}
+
+.rental-card__text p {
+  margin-top: 0;
+  font-size: 15px;
+}
+
+.rental-card__text a {
+  font-size: 12px;
+  padding-left: 1rem;
 }
