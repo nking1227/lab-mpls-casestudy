@@ -532,3 +532,104 @@ html {
   font-size: 12px;
   padding-left: 1rem;
 }
+
+/* .component_card__downloads */
+
+.grid__container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff8f2;
+}
+
+.h3__download {
+  margin-top: 0;
+}/*
+.text__background {
+  background: #f7e8db;
+}
+*/
+.card__women {
+  background-color: #f7bdaa;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  margin-right: 2rem;
+  height: 400px;
+}
+.card__women img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 2rem;
+  margin-top: -1rem;
+}
+
+.download__text {
+  border: red solid 1px;
+  background-color: #f7e8db;
+  padding-left: 2rem;
+  margin-left 2rem;
+  ;
+}
+
+
+
+.card__flowers h3, h4 {
+  margin-right: 2rem;
+}
+
+/*
+.card__day h3, h4 {
+  margin-right: 2rem;
+}
+*/
+
+.card__flowers img {
+  background-color: #f3a98c;
+  padding-top: 1.9rem;
+  padding-bottom: 1.9rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  margin-right: 2rem;
+}
+
+.card__day img {
+  background-color: #f2e1d0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  margin-right: 2rem;
+}
+
+.h3__download , .h4__download {
+  background-color: #f7e8db;
+  text-align: center;
+}
+
+.h3__download {
+  font-family: var(--font-sans-serif-2);
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 2px;
+  padding-top: 1.5em;
+  margin-bottom: 0;
+}
+
+.h4__download {
+  font-family: var(--font-sans-serif-2);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+
+
+
+
