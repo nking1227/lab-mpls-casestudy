@@ -725,21 +725,40 @@ html {
 
 .header__social_nav {
   padding-top: 4em;
-  padding-bottom: 10em;
+  padding-bottom: 5em;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   background-color: #fff8f2;
 }
 
-.header__wordmark img{
-  
+.header__wordmark {
+  display: grid;
+  justify-content: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  /*
   position: absolute;
   top: 120px;
   right: 725px;
+  */
 }
 
 .header__black_icons {
+  display: grid;
+  justify-content: end;
+  align-content: center;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  padding-right: 1em;
+  /*
   position: absolute;
   top: 120px;
   right: 50px;
+  */
+}
+
+.header__icons_list {
+  font-size: 20px;
 }
 
 
