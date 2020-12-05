@@ -32,6 +32,10 @@ html {
     max-width: 100%;
   }
   
+  .card {
+    border: 1px solid gray;
+    overflow-x: auto;
+  }
   .body__code {
     font-family: var(--font-sans-serif);
     line-height: 1.9;
@@ -66,19 +70,19 @@ html {
     display: block;
   }
 
-  .h2__code {
+  .h1__code {
     font-size: 1.15em;
     letter-spacing: .09em;
     font-family: var(--font-serif);
   }
-  .h3__code {
+  .h2__code {
     font-family: var(--font-serif);
     letter-spacing: .02em;
     font-weight: 400;
     font-size: 1.4em;
   }
 
-  .h4__code {
+  .h3__code {
     font-family: var(--font-sans-serif);
     text-transform: uppercase;
     font-weight: 700;
@@ -102,6 +106,14 @@ html {
 
   a:hover {
     color: var(--bright-orange);
+  }
+
+  .announcement__code {
+    border: 1px solid red;
+    text-align: center;
+    background-color: #c99173;
+    color: var(--white);
+    margin-top: 1rem;
   }
 
   .component__sticky-menu {
@@ -666,6 +678,18 @@ html {
 .footer__stacked-text {
   display: flex;
   padding: 0.5em;
+}
+
+/* Home Page CSS */
+
+.header__announcement {
+  font-size: 16px;
+  font-weight: 200;
+  width: 100%;
+}
+
+.header {
+  margin-top: 0;
 }
 
 
