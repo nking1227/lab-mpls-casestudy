@@ -108,12 +108,23 @@ html {
     color: var(--bright-orange);
   }
 
+  .black_icons__code {
+    list-style: none;
+    display: flex;
+  }
+
+  .black_icons {
+    padding-right: 0.5em;
+  }
+
+  .fa-envelope {
+    padding-top: 0.5em;
+  }
   .announcement__code {
-    border: 1px solid red;
     text-align: center;
     background-color: #c99173;
     color: var(--white);
-    margin-top: 1rem;
+    margin: auto;
   }
 
   .component__sticky-menu {
@@ -326,7 +337,7 @@ html {
 }
 
 .services-card__img {
-  border: 4px solid blue;
+
   grid-row-start: 4;
   grid-column-start: 1;
   grid-column-end: 30;
@@ -334,7 +345,6 @@ html {
 
 
 .services-card__img img {
-  border: 3px solid red;
   object-fit: cover;
   width: 100%;
   /*
@@ -404,7 +414,6 @@ html {
 }
 
 .branding-card__img {
-  border: 4px solid blue;
   grid-row-start: 4;
   grid-column-start: 1;
   grid-column-end: 30;
@@ -412,7 +421,6 @@ html {
 
 
 .branding-card__img img {
-  border: 3px solid red;
   object-fit: cover;
   width: 100%;
   /*
@@ -482,7 +490,6 @@ html {
 }
 
 .rental-card__img {
-  border: 4px solid blue;
   grid-row-start: 4;
   grid-column-start: 1;
   grid-column-end: 30;
@@ -490,7 +497,6 @@ html {
 
 
 .rental-card__img img {
-  border: 3px solid red;
   object-fit: cover;
   width: 100%;
   /*
@@ -577,7 +583,6 @@ html {
 }
 
 .download__text {
-  border: red solid 1px;
   background-color: #f7e8db;
   padding-left: 2rem;
   margin-left 2rem;
@@ -686,7 +691,12 @@ html {
   font-size: 16px;
   font-weight: 200;
   width: 100%;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
+
 
 .header {
   margin-top: 0;
@@ -712,6 +722,29 @@ html {
 .nav__sticky_menu p {
   margin: 0;
 }
+
+.header__social_nav {
+  padding-top: 4em;
+  padding-bottom: 10em;
+  background-color: #fff8f2;
+}
+
+.header__wordmark img{
+  
+  position: absolute;
+  top: 120px;
+  right: 725px;
+}
+
+.header__black_icons {
+  position: absolute;
+  top: 120px;
+  right: 50px;
+}
+
+
+
+
 
 
 
