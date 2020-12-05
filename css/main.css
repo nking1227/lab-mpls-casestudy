@@ -27,6 +27,10 @@ html {
     box-sizing: inherit;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   .wrapper {
     border: 2px red solid;
     max-width: 100%;
