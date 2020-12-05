@@ -729,7 +729,7 @@ html {
 
 .header__social_nav {
   padding-top: 4em;
-  padding-bottom: 5em;
+  padding-bottom: 4em;
   display: grid;
   grid-template-columns: auto auto auto auto;
   background-color: #fff8f2;
@@ -763,6 +763,32 @@ html {
 
 .header__icons_list {
   font-size: 20px;
+}
+
+.section__about {
+  border: 2px red solid;
+  height: 500px;
+  background-color: #fff8f2;
+
+}
+
+.about_card {
+  border: 1px solid red;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  top: -50px;
+  left: 320px;
+  background-color: #ffffff;
+  border: 1px red solid;
+
+}
+
+
+.about-card__code h3 {
+  border: 1px red solid;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 
