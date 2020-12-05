@@ -692,6 +692,26 @@ html {
   margin-top: 0;
 }
 
+.header__nav {
+  position: fixed;
+  top: 0;
+  margin-top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.nav__sticky_menu {
+  width: 160px;
+  height: 160px;
+  align-content: center;
+  padding-left: 2em;
+  margin-top: 0;
+}
+
+
+.nav__sticky_menu p {
+  margin: 0;
+}
 
 
 
