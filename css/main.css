@@ -668,7 +668,6 @@ html {
   display: grid;
   max-width: 100%;
   background-color: #f7e8db;
-  border: 1px solid black;
 }
 .event-card__img {
     grid-row: 5;
@@ -725,7 +724,53 @@ html {
 }
 
 
+.studio-rental__card {  
+  background: #d4a991;
+  display: grid;
+  grid-template-columns: repeat(8, 30px);
+  grid-template-rows: repeat(8, 30px);
+  grid-gap: 2rem;
+  align-items: center;
+  max-width: 100%;
+  max-height: 600px;
+}
 
+.studio-rental__card h2 {
+  grid-row: 3 / span 5;
+  grid-column: 9 / span 4;
+  -webkit-transform: rotate(-90deg);
+  font-size: 60px;
+  text-align: left;
+  width: 390px;
+  color: white;
+}
+
+.studio-rental__card h3 {
+  font-size: 16px;
+  padding-left: 1.15em;
+}
+
+.studio-rental__text {
+  grid-column: 3;
+  grid-row: 6;
+  color: white;
+  padding-top: 4em;
+}
+
+.studio-rental__body {
+  padding-top: 0;
+}
+
+.rental__links a {
+  color: white;
+  padding-left: 1.15em;
+}
+
+.studio-rental__card__img {
+  width: 100%;
+  grid-column: 11 / 23;
+  grid-row: 1 / end;
+}
 
 /* .footer */
 .footer__main-nav {
