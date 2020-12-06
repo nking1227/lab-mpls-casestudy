@@ -664,6 +664,63 @@ html {
   font-size: 12px;
 }
 
+.event-card {
+  display: grid;
+}
+.event-card__img {
+    grid-row: 8 / 5;
+    grid-column: 22 / 40;
+}
+
+.event-card__text {
+  grid-row-start: 7;
+  grid-column: 12 / 22;
+  padding-right: 0;
+  height: 290px;
+  width: 500px;
+  overflow: auto;
+}
+
+.event-card__text p {
+   padding-bottom: 0;
+  padding-right: 3em;
+  text-align: left;
+  font-size: 14px;
+}
+
+.event-card__text a {
+  font-size: 12px;
+}
+
+.grid__links {
+  grid-row: 8 / 5;
+  grid-column: 37 / 40;
+}
+
+.grid__list {
+  list-style: none;
+  font-size: 30px;
+}
+
+.event-card__body {
+  padding-top: 2em;
+}
+
+.event-card h2 {
+  grid-row: 4 / 6;
+  grid-column: 12 ;
+  z-index: 10;
+  text-transform: uppercase;
+}
+
+.event-card h3 {
+  grid-row: 4 / 7;
+  grid-column: 12 ;
+  z-index: 10;
+  text-transform: lowercase;
+  font-size: 70px;
+  font-weight: bolder;
+}
 
 
 
