@@ -646,7 +646,23 @@ html {
   text-align: center;
 }
 
+.card__downloads {
+  background-color: #fff8f2;
+}
 
+.card__downloads h2 {
+  text-align: center;
+  padding-top: 2em;
+  margin-bottom: -1.5em;
+}
+.more_downloads {
+  background-color: #fff8f2;
+  margin-top: 0;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  text-align: center;
+  font-size: 12px;
+}
 
 
 
