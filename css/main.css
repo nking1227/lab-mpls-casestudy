@@ -663,6 +663,8 @@ html {
   font-size: 12px;
 }
 
+/* .component_card__events */
+
 .event-card {
   display: grid;
   max-width: 100%;
@@ -722,6 +724,7 @@ html {
   font-weight: bolder;
 }
 
+/* .component_card__private_events */
 
 .studio-rental__card {  
   background: #d4a991;
@@ -770,6 +773,9 @@ html {
   grid-column: 11 / 23;
   grid-row: 1 / end;
 }
+
+
+/* .component_card__pinterest */
 
 .grid__pinterest {
   display: grid;
