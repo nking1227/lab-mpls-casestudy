@@ -1266,7 +1266,35 @@ html {
   font-size: 30px;
 }
 
+.section__about {
+  margin-bottom: .75em;
+}
 
+.section__feature {
+  margin-bottom: -.50em;
+}
+
+.section__services-numbers {
+  padding-top: 0;
+}
+
+.section__events {
+  margin-bottom: .75em;
+}
+
+.section__rentals {
+  margin-bottom: .75em;
+}
+
+.section__pinterest {
+  margin-bottom: -1em;
+}
+
+.footer__homepage img {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
 
 
 
