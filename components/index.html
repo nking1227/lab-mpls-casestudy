@@ -585,7 +585,7 @@
             </div>
 
             <div class="grid_card__pinterest-icon">
-                <li><i class="fab fa-pinterest"></i></li>
+                <p><i class="fab fa-pinterest "></i></p>
             </div>
 
             <img class="grid__img_1" src="../components/img/pinterest_img_1.png" alt="">
@@ -602,19 +602,38 @@
 
 
 <!--.component_card__connected-->
-<article class="card__feature card">
+<article class="card__connected card">
     <h3 class="component__about">.feature-card</h3>
     <div class="component__img">
         <img 
             srcset="../components/img/connected.png 2x"
             src="../components/img/connected.png" alt="">
     </div>
+
+    <div class="card__stay-connected">
+        <h3 class="h2__code">Stay Connected</h3>
+        <p class="body__code stay-connected__body">
+            LAB favorites, inspiration, event updates, and more. Subscribe to get worthy content directly to your inbox!
+        </p>
+
+        <div class="card__email">
+            <h4 class="h2__code">Email Address *</h4>
+            <form action="email">
+                <input class="email" maxlength="256" placeholder="name@example.com">
+            </form>
+                <p class="email__button-submit">
+                    <a class="button-submit__code" href="#!">Submit</a> 
+                </p> 
+        </div>
+        
+    </div>
+    
 </article>
 
 
 <!--.component_card__footer-->
 <article class="footer card">
-    <h3 class="component__about">.feature-card</h3>
+    <h3 class="component__about">.footer-card</h3>
     <div class="component__img">
         <img 
             srcset="../components/img/footer.png 2x"
@@ -641,63 +660,51 @@
         </ul>
     </div>
 
-    <div class="footer__nav-flex">
+    <div class="footer__grid">
+
     <div class="footer__nav-about">
-        <h2>Footer<img src="../components/img/wordmark-aktivgrotesk.png" alt=""></h2>
-            <ul class="footer__stacked-text">
-                <li>Create</li>
-                <li>Connect</li>
-            </ul>
-
-                <p>Collaborate</p>
+        <h2><img src="../components/img/wordmark-aktivgrotesk.png" alt=""></h2>
+            <div class="footer__stacked-text">
+                <p class="footer__create">Create</p>
+                <p class="footer__connect">Connect</p>
+                <p class="footer__collaborate">Collaborate</p>
+            </div>
+    </div>
+        <p class="footer__instagram"><a href="!#">Instagram</a></p>
+        <p class="footer__instagram-handle"> <a href="!#">@LABMPLS</a></p>
+        <img class="footer__instagram_1" src="../components/img/instagram_3.png" alt="">
+        <img class="footer__instagram_2"  src="../components/img/instagram_2.png" alt="">
+        <img class="footer__instagram_3"  src="../components/img/instagram_1.png" alt="">
+        <p class="footer__back-to-top"><a href="!#">Back to Top</a></p>
     </div>
 
-    <div>
-        <p><a href="!#">Instagram</a></p>
-        <p> <a href="!#">@LABMPLS</a></p>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-
-    <div>
-        <p><a href="!#">Back to Top</a></p>
-    </div>
-    </div>
 
     <div>
-        <ul>
-            <li>
-                <a href="#!">Location</a>
+        <ul class="footer__main-nav footer__bottom-nav">
+            <li class="footer__location">
+                <a href="!#">Location</a>
             </li>
-            <li>
-                <a href="!#">1629 Hennipin Ave Ste 300A Minneapolis MN 55403</a>
+            <li class="footer__address">
+                <a href="!#">1629 Hennepin Ave STE 300A Minneapolis &#183 MN 55403</a>
             </li>
-            <li>
+            <li class="footer__email">
                 <a href="!#">Email</a>
             </li>
-            <li>
-                <a href="!#">CONNECT@LABMPLS.COM</a>
+            <li class="footer__email-address">
+                <a href="!#">Connect@Labmpls.com</a>
             </li>
-            <li>
-                <a href="!#">FOLLOW</a>
+            <li class="footer__social-follow">
+                <a href="!#">Follow</a>
             </li>
-            <li>
-                <a href="!#">Instagram</a>
-            </li>
-            <li>
-                <a href="!#">pinterest</a>
-            </li>
-            <li>
-                <a href="!#">facebook</a>
-            </li>
+                <li class="main-nav__social-list footer__social-list"> <i class="fab fa-instagram-square"></i></li>
+                <li class="main-nav__social-list footer__social-list"><i class="fab fa-pinterest"></i></li>
+                <li class="main-nav__social-list footer__social-list"><i class="fab fa-facebook-f"></i></li>
         </ul>
     </div>
-
     
-
-
-</article>
+    <p class="footer__copyright">
+        &#169 Lab 2020
+    </p>
 
 </article>
 </div>
